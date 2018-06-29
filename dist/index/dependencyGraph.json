@@ -1,0 +1,1 @@
+[{"entry":"index","dependency":[{"name":"promise-polyfill","type":"CMD","version":"6.1.0","dependency":[]},{"name":"object-assign","type":"CMD","version":"4.1.1","dependency":[]}]}]

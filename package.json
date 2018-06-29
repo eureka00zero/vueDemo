@@ -3,17 +3,56 @@
   "version": "1.0.0",
   "description": "test webpack-marauder",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eureka00zero/vueDemo.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "wangchang",
+    "email": "wangchang@staff.sina.com.cn"
+  },
   "bugs": {
     "url": "https://github.com/eureka00zero/vueDemo/issues"
   },
-  "homepage": "https://github.com/eureka00zero/vueDemo#readme"
+  "homepage": "https://github.com/eureka00zero/vueDemo#readme",
+  "private": true,
+  "scripts": {
+    "dev": "marax dev",
+    "build": "yarn && marax build",
+    "dll": "marax dll"
+  },
+  "dependencies": {
+    "@mfelibs/base-css": "^3.0.13",
+    "@mfelibs/base-css-score": "^0.1.13",
+    "@mfelibs/base-css-swiper": "^0.0.7",
+    "@mfelibs/base-tools-SIMA": "^1.1.4",
+    "@mfelibs/base-tools-cmnt": "^2.7.22",
+    "@mfelibs/base-tools-cmntnums": "^0.0.2",
+    "@mfelibs/base-tools-exposure": "^1.2.2",
+    "@mfelibs/base-tools-lazyload": "^1.5.7",
+    "@mfelibs/base-tools-nph": "^1.0.3",
+    "@mfelibs/base-tools-swiper": "^1.0.10",
+    "@mfelibs/base-utils": "^1.5.3",
+    "@mfelibs/common-vue-community-page": "^0.0.311",
+    "@mfelibs/common-vue-component": "^1.0.4",
+    "@mfelibs/common_feed": "^0.7.30",
+    "@mfelibs/common_header": "^0.2.10",
+    "@mfelibs/universal-framework": "^0.3.82",
+    "jsonp": "^0.2.1",
+    "lodash": "^4.17.5",
+    "vue": "^2.5.13",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.13",
+    "wintip": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.1.2",
+    "ts-loader": "^3.5.0",
+    "webpack-marauder": "^1.10.7"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT"
 }
