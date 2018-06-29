@@ -1,15 +1,72 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-        <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-    </head>
-    <body>
-        
-        <div id="app">
-            <!-- {{ message }} -->
-            hello
-        </div>
-        
-        <script src="index.js"></script>
-    </body>
+
+<head>
+  <script>window.firstTime = new Date().getTime();</script>
+  <meta charset="utf-8">
+  <title>vueDemo测试</title>
+  <meta name="keywords" content="vue-marauder-demo" />
+  <meta name="description" content="vue-marauder-demo" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes" />   -->
+  <meta name="author" content="wangchang">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:type" content="subject">
+  <meta property="og:title" content="vue-marauder-demo">
+  <meta property="og:description" content="vue-marauder-demo">
+  <!-- <meta property="og:url" content="http://ent.sina.cn/ent_zt/topic_test"> -->
+  <meta property="article:author" content="wangchang">
+  <meta property="article:published_time" content="2018-06-28 17:04:51">
+  <!-- <meta name="publishid" content="fxvqcts9225427"> -->
+
+  <!-- 搜索引擎 辅助抓站 -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="baidu-site-verification" content="rTnMzcp5WP">
+  <meta name="shenma-site-verification" content="0c910b838092fac1fb183f3de2eeb30a">
+  <link rel="apple-touch-icon-precomposed" href="http://mjs.sinaimg.cn/wap/online/public/images/addToHome/news_114x114_v1.png">
+  <link rel="apple-touch-icon-precomposed" href="http://mjs.sinaimg.cn/wap/online/public/images/addToHome/news_57x57_v1.png">
+  <script>
+    function rem() {
+      var t = 100,
+        o = 750,
+        e = document.documentElement.clientWidth || window.innerWidth,
+        n = Math.max(Math.min(e, 480), 320),
+        h = 50;
+      320 >= n && (h = Math.floor(n / o * t * .99)), n > 320 && 362 >= n && (h = Math.floor(n / o * t * 1)), n > 362 &&
+        375 >= n && (h = Math.floor(n / o * t * 1)), n > 375 && (h = Math.floor(n / o * t * .97)), document.querySelector(
+          "html").style.fontSize =
+        h + "px"
+    };
+    rem();
+    window.onresize = function () {
+      rem();
+    }
+  </script>
+
+
+  <script type="text/javascript">
+    //公共全局配置文件
+    // var globalConfig = {
+    //   startTime: new Date().getTime(), //页面开始渲染时间 ， 目前应用于：日志统计、性能统计。
+    //   isLogin: false, //是否登陆
+    //   userInfo: 0
+    // }
+    
+
+  </script>
+</head>
+
+<body>
+  <main class="page_main">
+
+    <section id="header" class="j_components"></section>
+    <section id="root">{{message}}</section>
+   
+  </main>
+
+</body>
+
 </html>
