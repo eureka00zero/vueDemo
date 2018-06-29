@@ -1,0 +1,19 @@
+{
+  "name": "vuedemo",
+  "version": "1.0.0",
+  "description": "test webpack-marauder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eureka00zero/vueDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eureka00zero/vueDemo/issues"
+  },
+  "homepage": "https://github.com/eureka00zero/vueDemo#readme"
+}
